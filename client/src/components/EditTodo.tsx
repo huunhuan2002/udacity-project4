@@ -42,7 +42,6 @@ export class EditTodo extends React.PureComponent<
   }
 
   handleSubmit = async (event: React.SyntheticEvent) => {
-    debugger
     event.preventDefault()
 
     try {
