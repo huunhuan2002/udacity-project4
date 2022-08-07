@@ -9,7 +9,7 @@ import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
 
 const XAWS = AWSXRay.captureAWS(AWS)
 
-const bucketName = process.env.TODOS_S3_BUCKET
+const bucketName = process.env.ATTACHMENT_S3_BUCKET
 const urlExpiration: number = 300
 
 const s3Bucket = new XAWS.S3({
